@@ -1,0 +1,76 @@
+a {
+  padding-right: 3em;
+  padding-bottom: 1em;
+  font-size: 120%;
+  color: #f0f0f0;
+}
+li {
+  padding-bottom: 1em;
+}
+
+#nav li {
+  display: inline-block;
+  margin: 0;
+  padding: 2vh 2vh 2vh 2vh;
+}
+#nav ul {
+  list-style-type: none;
+  margin: 0;
+  /*Justin 8/1/26 - fix scroll behavior*/
+  /*overflow: hidden;*/
+  padding: 0;
+  text-align: center;
+}
+
+body {
+  font-family: sans-serif;
+  background: #bf5700;
+  color: #f0f0f0;
+  width: 90%;
+  margin-right: auto;
+  margin-left: auto;
+  /* font-weight: 500; */
+  font-size: 110%;
+  /* max-width: 100%; */
+  /* overflow-x: hidden; */
+  /* overflow-y: scroll; */
+}
+/* Desktop */
+@media screen and (min-width: 980px) {
+  body {
+    width: 80%;
+  }
+}
+
+section {
+  width: 100%;
+  /* height: 100%; */
+  /*need to change this for reactive*/
+  
+  /*Justin 8/1/26 - fix scroll behavior*/
+  /*float: left;*/
+}
+
+#top {
+  background: #f0f0f0;
+  text-align: center;
+}
+
+#logo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 5vw;
+  max-width: 50%;
+  /* height: auto; */
+  /* padding: 5vw 5vw; */
+}
+
+h1 {
+  color: #BF5700;
+  text-align: center;
+  margin-top: 4vw;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 300%;
+}

@@ -1,0 +1,310 @@
+/* <uniquifier>: Use a unique and descriptive class name
+<weight>: Use a value from 300 to 700 */
+
+.teko-normal {
+    font-family: "Teko", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.kanit-thin {
+    font-family: "Kanit", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+}
+
+.kanit-extralight {
+    font-family: "Kanit", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+}
+
+.kanit-light {
+    font-family: "Kanit", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.kanit-regular {
+    font-family: "Kanit", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.kanit-medium {
+    font-family: "Kanit", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.kanit-semibold {
+    font-family: "Kanit", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+}
+
+.kanit-bold {
+    font-family: "Kanit", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.kanit-extrabold {
+    font-family: "Kanit", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+}
+
+.kanit-black {
+    font-family: "Kanit", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+}
+
+.kanit-thin-italic {
+    font-family: "Kanit", sans-serif;
+    font-weight: 100;
+    font-style: italic;
+}
+
+.kanit-extralight-italic {
+    font-family: "Kanit", sans-serif;
+    font-weight: 200;
+    font-style: italic;
+}
+
+.kanit-light-italic {
+    font-family: "Kanit", sans-serif;
+    font-weight: 300;
+    font-style: italic;
+}
+
+.kanit-regular-italic {
+    font-family: "Kanit", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+}
+
+.kanit-medium-italic {
+    font-family: "Kanit", sans-serif;
+    font-weight: 500;
+    font-style: italic;
+}
+
+.kanit-semibold-italic {
+    font-family: "Kanit", sans-serif;
+    font-weight: 600;
+    font-style: italic;
+}
+
+.kanit-bold-italic {
+    font-family: "Kanit", sans-serif;
+    font-weight: 700;
+    font-style: italic;
+}
+
+.kanit-extrabold-italic {
+    font-family: "Kanit", sans-serif;
+    font-weight: 800;
+    font-style: italic;
+}
+
+.kanit-black-italic {
+    font-family: "Kanit", sans-serif;
+    font-weight: 900;
+    font-style: italic;
+}
+
+section {
+    padding: 60px 0;
+    background-color: #bf5700;
+}
+
+#nav {
+    /*background-color: #bf5700;*/
+    background-color: #171a1d;
+
+}
+
+#navlink {
+    color: #bf5700;
+}
+
+.nav-link {
+    transition: all 0.2s;
+    position: relative;
+}
+
+.nav-link::after {
+    content: "";
+    opacity: 0;
+    transition: all 0.2s;
+    height: 2px;
+    width: 100%;
+    background-color: #bf5700;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.nav-link:hover::after {
+    opacity: 1;
+}
+
+.navbar-light .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28191, 87, 0, 0.55%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+
+/* disables the scrolling bounce effect when hitting the top or bottom of the page (it reveals white space) */
+body {
+    overscroll-behavior: none;
+    background-color: #bf5700;
+}
+
+.white-text {
+    color: white;
+}
+
+.orange-text {
+    color: #bf5700;
+}
+
+.black-text {
+    color: #171a1d;
+}
+
+.accordion-button {
+    background-color: #171a1d;
+    /* Default background */
+    color: white;
+    /* Default text color */
+    border: 1px solid #171a1d;
+    /* Default border color */
+}
+
+/* Change accordion header and arrow color when selected (expanded) */
+.accordion-button:not(.collapsed) {
+    background-color: #171a1d;
+    /* Background color when expanded */
+    color: #fff;
+    /* Text color when expanded */
+    border-color: #bf5700;
+    /* Border color when expanded */
+}
+
+/* Change the arrow icon color when expanded */
+.accordion-button::after {
+    color: white;
+    /* Default arrow color */
+}
+
+/* Change the arrow icon color when expanded */
+.accordion-button:not(.collapsed)::after {
+    color: #bf5700;
+    /* Arrow color when expanded */
+}
+
+/* Change accordion body border color */
+.accordion-item {
+    border: 1px solid #171a1d;
+    /* Default border color */
+}
+
+/* Change accordion body background color */
+.accordion-body {
+    background-color: #bf5700;
+    /* Light background for content */
+    color: white;
+    /* Text color */
+}
+
+/* Optional: Add transition for smooth color change */
+.accordion-button {
+    transition: background-color 0.3s ease, border-color 0.3s ease, color 0.3s ease;
+}
+
+.accordion-button {
+    background-color: #171a1d;
+    color: white;
+    border-color: #bf5700;
+}
+
+/* Change the accordion button color when active (expanded) */
+.accordion-button:not(.collapsed) {
+    background-color: #171a1d;
+    color: white;
+    border-color: #bf5700;
+}
+
+/* Remove blue glow and focus outline */
+.accordion-button:focus {
+    box-shadow: none;
+    outline: none;
+}
+
+/* Remove additional border radius to avoid white corners */
+.accordion-item {
+    border: 1px solid #bf5700;
+}
+
+.accordion-button {
+    border-radius: 0;
+}
+
+.accordion-button:not(.collapsed) {
+    border-radius: 0;
+}
+
+.accordion-button:not(.collapsed)::after {
+    color: #bf5700;
+}
+
+.custom-icon-link {
+    color: white
+}
+
+.custom-icon-link:hover {
+    color: #171a1d;
+}
+
+.custom-shadow {
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.3);
+    /* Customize the shadow here */
+}
+
+.custom-carousel-image {
+    width: auto;
+    height: 50%;
+    margin: 0 auto;
+}
+
+.accordion-button:focus {
+    box-shadow: none;
+    border-color: rgba(0, 0, 0, .125);
+}
+
+.accordion-button:after {
+    background-image: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23ffffff'><path fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/></svg>") !important;
+}
+
+#intro {
+    height: 87vh;
+    /* Adjust as needed */
+}
+
+@media (max-width: 767px) {
+    #intro {
+        height: auto;
+        /* Allow auto height on small screens */
+    }
+    .custom-carousel-image {
+        width: 80%;
+        height: auto;
+        margin: 0 auto;
+    }
+}
+
+body {
+    overflow-x: hidden;
+}
