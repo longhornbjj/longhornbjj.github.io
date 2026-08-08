@@ -25,3 +25,6 @@ Some things to note:
     Example "a" tag: <a href="samplelnk.com">Sample text</a>
 
 - You can also use chatGPT to do it. That would be much easier.
+
+UPDATE 8-27-26
+We moved from hosting on GoDaddy to free hosting Github Pages and Porkbun for the domain registry.
